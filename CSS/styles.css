@@ -1,0 +1,144 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: #091b4d;
+}
+.lead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #091b4d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.navbar {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid black; 
+
+    ul {
+        padding: 0; 
+        margin: 0; 
+        height: 52px;
+    }
+
+    li {
+        display:inline-block;
+        padding: 12px 130px; 
+    }
+
+    a {
+        padding: 10px;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.post{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.post-header h3{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-header img{
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.post-header .subtitulo{
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+
+}
+
+.post-body p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+th, td {
+    border: 1px solid #000000; 
+}
+
+th {
+    padding: 12px;
+    text-align: center;
+    background-color: #747474e7; 
+    color: black; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #333; 
+}
+
+
+footer{
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+footer h4{
+    margin: 0 0 10px;
+}
+
+footer form{
+    display: inline-block;
+    text-align: left;
+}
+
+footer input[type="text"],
+footer input[type="email"]{
+    padding: 10px;
+    width: 90%;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer input[type="submit"]{
+    padding: 10px 20px;
+    background-color: #091b4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer input[type="submit"]:hover{
+    background-color: #45a049;
+}
